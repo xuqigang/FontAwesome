@@ -15,6 +15,11 @@
 		18D2C0DE1F2C6B9C00CAA03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D2C0DC1F2C6B9C00CAA03C /* LaunchScreen.storyboard */; };
 		18D2C0E91F2C6B9C00CAA03C /* FontAwesomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C0E81F2C6B9C00CAA03C /* FontAwesomeTests.m */; };
 		18D2C0F41F2C6B9C00CAA03C /* FontAwesomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C0F31F2C6B9C00CAA03C /* FontAwesomeUITests.m */; };
+		18D2C1051F2C6DBC00CAA03C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D2C1041F2C6DBC00CAA03C /* FontAwesome.ttf */; };
+		18D2C10E1F2C6DCC00CAA03C /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C1071F2C6DCC00CAA03C /* FAImageView.m */; };
+		18D2C10F1F2C6DCC00CAA03C /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C1091F2C6DCC00CAA03C /* NSString+FontAwesome.m */; };
+		18D2C1101F2C6DCC00CAA03C /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C10B1F2C6DCC00CAA03C /* UIFont+FontAwesome.m */; };
+		18D2C1111F2C6DCC00CAA03C /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C10D1F2C6DCC00CAA03C /* UIImage+FontAwesome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		18D2C0EF1F2C6B9C00CAA03C /* FontAwesomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D2C0F31F2C6B9C00CAA03C /* FontAwesomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontAwesomeUITests.m; sourceTree = "<group>"; };
 		18D2C0F51F2C6B9C00CAA03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D2C1041F2C6DBC00CAA03C /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		18D2C1061F2C6DCC00CAA03C /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		18D2C1071F2C6DCC00CAA03C /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		18D2C1081F2C6DCC00CAA03C /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		18D2C1091F2C6DCC00CAA03C /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		18D2C10A1F2C6DCC00CAA03C /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		18D2C10B1F2C6DCC00CAA03C /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		18D2C10C1F2C6DCC00CAA03C /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		18D2C10D1F2C6DCC00CAA03C /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,7 @@
 		18D2C0CE1F2C6B9C00CAA03C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18D2C1031F2C6DBC00CAA03C /* FontAwesome */,
 				18D2C0CF1F2C6B9C00CAA03C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +153,22 @@
 				18D2C0F51F2C6B9C00CAA03C /* Info.plist */,
 			);
 			path = FontAwesomeUITests;
+			sourceTree = "<group>";
+		};
+		18D2C1031F2C6DBC00CAA03C /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				18D2C1061F2C6DCC00CAA03C /* FAImageView.h */,
+				18D2C1071F2C6DCC00CAA03C /* FAImageView.m */,
+				18D2C1081F2C6DCC00CAA03C /* NSString+FontAwesome.h */,
+				18D2C1091F2C6DCC00CAA03C /* NSString+FontAwesome.m */,
+				18D2C10A1F2C6DCC00CAA03C /* UIFont+FontAwesome.h */,
+				18D2C10B1F2C6DCC00CAA03C /* UIFont+FontAwesome.m */,
+				18D2C10C1F2C6DCC00CAA03C /* UIImage+FontAwesome.h */,
+				18D2C10D1F2C6DCC00CAA03C /* UIImage+FontAwesome.m */,
+				18D2C1041F2C6DBC00CAA03C /* FontAwesome.ttf */,
+			);
+			path = FontAwesome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +280,7 @@
 				18D2C0DE1F2C6B9C00CAA03C /* LaunchScreen.storyboard in Resources */,
 				18D2C0DB1F2C6B9C00CAA03C /* Assets.xcassets in Resources */,
 				18D2C0D91F2C6B9C00CAA03C /* Main.storyboard in Resources */,
+				18D2C1051F2C6DBC00CAA03C /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D2C10F1F2C6DCC00CAA03C /* NSString+FontAwesome.m in Sources */,
 				18D2C0D61F2C6B9C00CAA03C /* ViewController.m in Sources */,
+				18D2C10E1F2C6DCC00CAA03C /* FAImageView.m in Sources */,
 				18D2C0D31F2C6B9C00CAA03C /* AppDelegate.m in Sources */,
 				18D2C0D01F2C6B9C00CAA03C /* main.m in Sources */,
+				18D2C1101F2C6DCC00CAA03C /* UIFont+FontAwesome.m in Sources */,
+				18D2C1111F2C6DCC00CAA03C /* UIImage+FontAwesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
